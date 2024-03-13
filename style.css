@@ -1,0 +1,108 @@
+
+
+.container{
+    display: flex;
+    gap:150px;
+    padding:5px 30px;
+    
+}
+
+.inputs{
+    border: 2px solid #bbdfea;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px 70px;
+    max-width: 600px;
+    
+}
+
+.card{
+    border: 2px solid #0e1098;
+    box-shadow: 3px 2px 3px #5253c4;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top:20px;
+}
+
+
+.actions{
+    display: flex;
+    gap:50px;
+}
+
+button{
+    padding: 10px 40px;
+    border-radius: 15px;
+    border:none;
+    cursor: pointer;
+}
+
+.facebook{
+   background-color: #0000ff;
+   color: white;
+}
+
+.linkedin{
+    color: black;
+    background-color:white;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;  
+}
+
+.image{
+    border: 3px solid #e7ebed;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    margin-top: 70px;
+}
+
+input{
+    border: 1px solid silver;
+    border-radius: 5px;
+    height:20px;
+    width:300px;
+}
+
+.card-header{
+    width:100%;
+    height: 80px;
+    background-color: #e7ebed;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card-form{
+    background-color: #393d46;
+    width:100%;
+    height: 500px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    align-items: center;
+}
+
+h3{
+    color:white;
+}
+
+h1{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+      
+    }
+  }
