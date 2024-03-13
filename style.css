@@ -17,14 +17,18 @@
     
 }
 
+.card-wrapper{
+    width: 100%;
+    margin-top:20px;   
+    padding:10px 20px;
+}
+
 .card{
     border: 2px solid #0e1098;
     box-shadow: 3px 2px 3px #5253c4;
     border-radius: 30px;
     display:flex;
-    flex-direction: column;
-    width: 80%;
-    margin-top:20px;   
+    flex-direction: column; 
 }
 
 
@@ -103,6 +107,7 @@ h1{
     .container{
         display: flex;
         flex-direction: column;
+        padding: 20px 30px;
       
     }
   }
