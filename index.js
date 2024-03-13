@@ -2,14 +2,15 @@
 
 let inp = document.querySelectorAll("input");
 let myTextarea = document.getElementById("myTextarea");
+let icon =document.querySelectorAll("i");
 
 let user = document.querySelector("h1");
 let image = document.querySelector("img");
 let position = document.querySelector("h2");
 let birthdayDate = document.querySelector("h3");
 let infoAboutMe = document.querySelector("h5");
-let facebook = document.querySelector(".facebook");
-let linkedin = document.querySelector(".linkedin");
+let facebook = document.querySelectorAll(".facebook");
+let linkedin = document.querySelectorAll(".linkedin");
 
 let buttons=document.querySelectorAll("button");
 
@@ -47,11 +48,21 @@ inp[5].addEventListener('input',function(){
 
 
 
+
+
 buttons[1].addEventListener('click', function(){
     window.location = link1;
 })
 
 buttons[0].addEventListener('click', function(){
+    window.location = link2;
+})
+
+icon[1].addEventListener('click', function(){
+    window.location = link1;
+})
+
+icon[0].addEventListener('click', function(){
     window.location = link2;
 })
 
